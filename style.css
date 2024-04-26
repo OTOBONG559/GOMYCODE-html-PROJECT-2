@@ -1,0 +1,124 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    color: yellow;
+}
+
+p{text-align: justify;}
+
+body{
+    background-color: rgb(79, 74, 74);
+    color: aliceblue;
+}
+
+table, tr, td, th, tfoot, caption {border: 2px
+    solid black;
+font-family:'Times New Roman', Times, serif;
+border-collapse:collapse;
+padding: 1.0rem;
+text-align: center;
+}
+
+th{
+    color: chartreuse;
+}
+
+
+b{
+    color: chartreuse;
+}
+
+#tt1 {text-align: center;}
+#tt2 {text-align: center;}
+#tt3 {text-align: center;}
+#tt4 {text-align: center;}
+
+footer{
+    text-align: center;
+    color: coral;
+}
+
+#message {text-align: justify;
+    vertical-align: middle;
+    width: 500px; 
+    height: 200px;
+    padding: 10px;
+    resize: none;
+    top: 50%;
+    bottom: 50%;
+    position: relative;
+    text-overflow: clip;
+   
+}
+
+button {
+color: white;
+border-color: yellow;
+background-color: blue;
+border-radius: 20px;
+padding-right: 30px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 30px;
+
+}
+
+::placeholder{
+    color: red;
+    
+}
+
+.ly{
+justify-content: space-between;
+}
+
+a{
+text-decoration: none;   
+color: greenyellow;
+
+}
+
+nav{
+    justify-content: space-around;
+    display: flex;
+   
+}
+
+a:visited{color: greenyellow}
+a:hover{  color: red;}
+a:active{ color: rebeccapurple;}
+
+/* .colorful-text span:nth-child(1) { color: red; }
+.colorful-text span:nth-child(2) { color: blue; }
+.colorful-text span:nth-child(3) { color: green; }
+.colorful-text span:nth-child(4) { color: orange; }
+.colorful-text span:nth-child(5) { color: purple; }
+.colorful-text span:nth-child(6) { color: red; }
+.colorful-text span:nth-child(7) { color: magenta; }
+
+.colorful-text span:nth-child(11) { color: yellow; }
+.colorful-text span:nth-child(12) { color: black}
+.colorful-text span:nth-child(13) { color: maroon; }
+.colorful-text span:nth-child(14) { color: magenta }
+.colorful-text span:nth-child(15) { color: red }
+.colorful-text span:nth-child(16) { color: olive; }
+.colorful-text span:nth-child(17) { color: blue } */
+
+.colorful-text{
+    font-weight: 900;
+    font-size: x-large;
+    color: darkorange;
+    font-family: cursive;
+   
+    
+
+}
+
+video{
+    background-color: black;
+    padding: auto;
+    
+}
